@@ -7,23 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC25D25728313D200003B7AD /* todo.gif in Resources */ = {isa = PBXBuildFile; fileRef = FC25D25628313D200003B7AD /* todo.gif */; };
+		FC25D25B28313F340003B7AD /* PoiretOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC25D25A28313F340003B7AD /* PoiretOne-Regular.ttf */; };
 		FCF0376B282DA198000CC7C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0376A282DA198000CC7C1 /* AppDelegate.swift */; };
 		FCF0376D282DA198000CC7C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0376C282DA198000CC7C1 /* SceneDelegate.swift */; };
-		FCF0376F282DA198000CC7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0376E282DA198000CC7C1 /* ViewController.swift */; };
-		FCF03772282DA198000CC7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF03770282DA198000CC7C1 /* Main.storyboard */; };
 		FCF03774282DA198000CC7C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCF03773282DA198000CC7C1 /* Assets.xcassets */; };
 		FCF03777282DA198000CC7C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF03775282DA198000CC7C1 /* LaunchScreen.storyboard */; };
+		FCF0377F282DA364000CC7C1 /* ToDo.db in Resources */ = {isa = PBXBuildFile; fileRef = FCF0377E282DA364000CC7C1 /* ToDo.db */; };
+		FCF0378C282DA388000CC7C1 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF03781282DA387000CC7C1 /* FMDatabase.m */; };
+		FCF0378D282DA388000CC7C1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF03783282DA387000CC7C1 /* FMDatabasePool.m */; };
+		FCF0378E282DA388000CC7C1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF03786282DA387000CC7C1 /* FMDatabaseQueue.m */; };
+		FCF0378F282DA388000CC7C1 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF03788282DA388000CC7C1 /* FMDatabaseAdditions.m */; };
+		FCF03790282DA388000CC7C1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = FCF0378B282DA388000CC7C1 /* FMResultSet.m */; };
+		FCF03792282DA3B0000CC7C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCF03791282DA3B0000CC7C1 /* Main.storyboard */; };
+		FCF03795282DA3D1000CC7C1 /* Yapilacaklar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF03794282DA3D1000CC7C1 /* Yapilacaklar.swift */; };
+		FCF037A1282DA3D7000CC7C1 /* DetayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF03798282DA3D7000CC7C1 /* DetayPresenter.swift */; };
+		FCF037A2282DA3D7000CC7C1 /* DetayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0379A282DA3D7000CC7C1 /* DetayVC.swift */; };
+		FCF037A3282DA3D7000CC7C1 /* DetayProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0379C282DA3D7000CC7C1 /* DetayProtocol.swift */; };
+		FCF037A4282DA3D7000CC7C1 /* DetayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF0379E282DA3D7000CC7C1 /* DetayInteractor.swift */; };
+		FCF037A5282DA3D7000CC7C1 /* DetayRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037A0282DA3D7000CC7C1 /* DetayRouter.swift */; };
+		FCF037B1282DA3E0000CC7C1 /* KayitPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037A8282DA3E0000CC7C1 /* KayitPresenter.swift */; };
+		FCF037B2282DA3E0000CC7C1 /* KayitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037AA282DA3E0000CC7C1 /* KayitVC.swift */; };
+		FCF037B3282DA3E0000CC7C1 /* KayitProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037AC282DA3E0000CC7C1 /* KayitProtocol.swift */; };
+		FCF037B4282DA3E0000CC7C1 /* KayitInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037AE282DA3E0000CC7C1 /* KayitInteractor.swift */; };
+		FCF037B5282DA3E0000CC7C1 /* KayitRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037B0282DA3E0000CC7C1 /* KayitRouter.swift */; };
+		FCF037C3282DA3E7000CC7C1 /* ToDotableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037B8282DA3E7000CC7C1 /* ToDotableViewCell.swift */; };
+		FCF037C4282DA3E7000CC7C1 /* AnasayfaPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037BA282DA3E7000CC7C1 /* AnasayfaPresenter.swift */; };
+		FCF037C5282DA3E7000CC7C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037BC282DA3E7000CC7C1 /* ViewController.swift */; };
+		FCF037C6282DA3E7000CC7C1 /* AnasayfaProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037BE282DA3E7000CC7C1 /* AnasayfaProtocol.swift */; };
+		FCF037C7282DA3E7000CC7C1 /* AnasayfaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037C0282DA3E7000CC7C1 /* AnasayfaInteractor.swift */; };
+		FCF037C8282DA3E7000CC7C1 /* AnasayfaRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037C2282DA3E7000CC7C1 /* AnasayfaRouter.swift */; };
+		FCF037CA282DA575000CC7C1 /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037C9282DA575000CC7C1 /* gifLoader.swift */; };
+		FCF037D0282DB321000CC7C1 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF037CF282DB321000CC7C1 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC25D25628313D200003B7AD /* todo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = todo.gif; sourceTree = "<group>"; };
+		FC25D25A28313F340003B7AD /* PoiretOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PoiretOne-Regular.ttf"; sourceTree = "<group>"; };
 		FCF03767282DA198000CC7C1 /* ToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCF0376A282DA198000CC7C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCF0376C282DA198000CC7C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FCF0376E282DA198000CC7C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FCF03771282DA198000CC7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FCF03773282DA198000CC7C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCF03776282DA198000CC7C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCF03778282DA198000CC7C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCF0377E282DA364000CC7C1 /* ToDo.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = ToDo.db; sourceTree = "<group>"; };
+		FCF03780282DA387000CC7C1 /* ToDo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCF03781282DA387000CC7C1 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		FCF03782282DA387000CC7C1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		FCF03783282DA387000CC7C1 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		FCF03784282DA387000CC7C1 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		FCF03785282DA387000CC7C1 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		FCF03786282DA387000CC7C1 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		FCF03787282DA387000CC7C1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		FCF03788282DA388000CC7C1 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		FCF03789282DA388000CC7C1 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		FCF0378A282DA388000CC7C1 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		FCF0378B282DA388000CC7C1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		FCF03791282DA3B0000CC7C1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FCF03794282DA3D1000CC7C1 /* Yapilacaklar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yapilacaklar.swift; sourceTree = "<group>"; };
+		FCF03798282DA3D7000CC7C1 /* DetayPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetayPresenter.swift; sourceTree = "<group>"; };
+		FCF0379A282DA3D7000CC7C1 /* DetayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetayVC.swift; sourceTree = "<group>"; };
+		FCF0379C282DA3D7000CC7C1 /* DetayProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetayProtocol.swift; sourceTree = "<group>"; };
+		FCF0379E282DA3D7000CC7C1 /* DetayInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetayInteractor.swift; sourceTree = "<group>"; };
+		FCF037A0282DA3D7000CC7C1 /* DetayRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetayRouter.swift; sourceTree = "<group>"; };
+		FCF037A8282DA3E0000CC7C1 /* KayitPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayitPresenter.swift; sourceTree = "<group>"; };
+		FCF037AA282DA3E0000CC7C1 /* KayitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayitVC.swift; sourceTree = "<group>"; };
+		FCF037AC282DA3E0000CC7C1 /* KayitProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayitProtocol.swift; sourceTree = "<group>"; };
+		FCF037AE282DA3E0000CC7C1 /* KayitInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayitInteractor.swift; sourceTree = "<group>"; };
+		FCF037B0282DA3E0000CC7C1 /* KayitRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KayitRouter.swift; sourceTree = "<group>"; };
+		FCF037B8282DA3E7000CC7C1 /* ToDotableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDotableViewCell.swift; sourceTree = "<group>"; };
+		FCF037BA282DA3E7000CC7C1 /* AnasayfaPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnasayfaPresenter.swift; sourceTree = "<group>"; };
+		FCF037BC282DA3E7000CC7C1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCF037BE282DA3E7000CC7C1 /* AnasayfaProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnasayfaProtocol.swift; sourceTree = "<group>"; };
+		FCF037C0282DA3E7000CC7C1 /* AnasayfaInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnasayfaInteractor.swift; sourceTree = "<group>"; };
+		FCF037C2282DA3E7000CC7C1 /* AnasayfaRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnasayfaRouter.swift; sourceTree = "<group>"; };
+		FCF037C9282DA575000CC7C1 /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
+		FCF037CF282DB321000CC7C1 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC2CAF36282ECA9100F69BB3 /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037CF282DB321000CC7C1 /* SplashViewController.swift */,
+				FCF037C9282DA575000CC7C1 /* gifLoader.swift */,
+			);
+			path = splash;
+			sourceTree = "<group>";
+		};
 		FCF0375E282DA198000CC7C1 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +124,215 @@
 		FCF03769282DA198000CC7C1 /* ToDo */ = {
 			isa = PBXGroup;
 			children = (
+				FC25D25628313D200003B7AD /* todo.gif */,
+				FC2CAF36282ECA9100F69BB3 /* splash */,
+				FCF03793282DA3D1000CC7C1 /* entity */,
+				FCF03796282DA3D7000CC7C1 /* detay-module */,
+				FCF037A6282DA3E0000CC7C1 /* kayit-module */,
+				FCF037B6282DA3E7000CC7C1 /* anasayfa-module */,
 				FCF0376A282DA198000CC7C1 /* AppDelegate.swift */,
 				FCF0376C282DA198000CC7C1 /* SceneDelegate.swift */,
-				FCF0376E282DA198000CC7C1 /* ViewController.swift */,
-				FCF03770282DA198000CC7C1 /* Main.storyboard */,
 				FCF03773282DA198000CC7C1 /* Assets.xcassets */,
 				FCF03775282DA198000CC7C1 /* LaunchScreen.storyboard */,
+				FCF03791282DA3B0000CC7C1 /* Main.storyboard */,
 				FCF03778282DA198000CC7C1 /* Info.plist */,
+				FCF037D3282DB931000CC7C1 /* Fonts */,
+				FCF0377E282DA364000CC7C1 /* ToDo.db */,
+				FCF03785282DA387000CC7C1 /* FMDatabase.h */,
+				FCF03781282DA387000CC7C1 /* FMDatabase.m */,
+				FCF03789282DA388000CC7C1 /* FMDatabaseAdditions.h */,
+				FCF03788282DA388000CC7C1 /* FMDatabaseAdditions.m */,
+				FCF03784282DA387000CC7C1 /* FMDatabasePool.h */,
+				FCF03783282DA387000CC7C1 /* FMDatabasePool.m */,
+				FCF0378A282DA388000CC7C1 /* FMDatabaseQueue.h */,
+				FCF03786282DA387000CC7C1 /* FMDatabaseQueue.m */,
+				FCF03782282DA387000CC7C1 /* FMDB.h */,
+				FCF03787282DA387000CC7C1 /* FMResultSet.h */,
+				FCF0378B282DA388000CC7C1 /* FMResultSet.m */,
+				FCF03780282DA387000CC7C1 /* ToDo-Bridging-Header.h */,
 			);
 			path = ToDo;
+			sourceTree = "<group>";
+		};
+		FCF03793282DA3D1000CC7C1 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				FCF03794282DA3D1000CC7C1 /* Yapilacaklar.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		FCF03796282DA3D7000CC7C1 /* detay-module */ = {
+			isa = PBXGroup;
+			children = (
+				FCF03797282DA3D7000CC7C1 /* presenter */,
+				FCF03799282DA3D7000CC7C1 /* view */,
+				FCF0379B282DA3D7000CC7C1 /* protocols */,
+				FCF0379D282DA3D7000CC7C1 /* interactor */,
+				FCF0379F282DA3D7000CC7C1 /* router */,
+			);
+			path = "detay-module";
+			sourceTree = "<group>";
+		};
+		FCF03797282DA3D7000CC7C1 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FCF03798282DA3D7000CC7C1 /* DetayPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		FCF03799282DA3D7000CC7C1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0379A282DA3D7000CC7C1 /* DetayVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FCF0379B282DA3D7000CC7C1 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0379C282DA3D7000CC7C1 /* DetayProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		FCF0379D282DA3D7000CC7C1 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FCF0379E282DA3D7000CC7C1 /* DetayInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		FCF0379F282DA3D7000CC7C1 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037A0282DA3D7000CC7C1 /* DetayRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		FCF037A6282DA3E0000CC7C1 /* kayit-module */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037A7282DA3E0000CC7C1 /* presenter */,
+				FCF037A9282DA3E0000CC7C1 /* view */,
+				FCF037AB282DA3E0000CC7C1 /* protocols */,
+				FCF037AD282DA3E0000CC7C1 /* interactor */,
+				FCF037AF282DA3E0000CC7C1 /* router */,
+			);
+			path = "kayit-module";
+			sourceTree = "<group>";
+		};
+		FCF037A7282DA3E0000CC7C1 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037A8282DA3E0000CC7C1 /* KayitPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		FCF037A9282DA3E0000CC7C1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037AA282DA3E0000CC7C1 /* KayitVC.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FCF037AB282DA3E0000CC7C1 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037AC282DA3E0000CC7C1 /* KayitProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		FCF037AD282DA3E0000CC7C1 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037AE282DA3E0000CC7C1 /* KayitInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		FCF037AF282DA3E0000CC7C1 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037B0282DA3E0000CC7C1 /* KayitRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		FCF037B6282DA3E7000CC7C1 /* anasayfa-module */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037B7282DA3E7000CC7C1 /* tableView */,
+				FCF037B9282DA3E7000CC7C1 /* presenter */,
+				FCF037BB282DA3E7000CC7C1 /* view */,
+				FCF037BD282DA3E7000CC7C1 /* protocols */,
+				FCF037BF282DA3E7000CC7C1 /* interactor */,
+				FCF037C1282DA3E7000CC7C1 /* router */,
+			);
+			path = "anasayfa-module";
+			sourceTree = "<group>";
+		};
+		FCF037B7282DA3E7000CC7C1 /* tableView */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037B8282DA3E7000CC7C1 /* ToDotableViewCell.swift */,
+			);
+			path = tableView;
+			sourceTree = "<group>";
+		};
+		FCF037B9282DA3E7000CC7C1 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037BA282DA3E7000CC7C1 /* AnasayfaPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		FCF037BB282DA3E7000CC7C1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037BC282DA3E7000CC7C1 /* ViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FCF037BD282DA3E7000CC7C1 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037BE282DA3E7000CC7C1 /* AnasayfaProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		FCF037BF282DA3E7000CC7C1 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037C0282DA3E7000CC7C1 /* AnasayfaInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		FCF037C1282DA3E7000CC7C1 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				FCF037C2282DA3E7000CC7C1 /* AnasayfaRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		FCF037D3282DB931000CC7C1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC25D25A28313F340003B7AD /* PoiretOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +351,8 @@
 			dependencies = (
 			);
 			name = ToDo;
+			packageProductDependencies = (
+			);
 			productName = ToDo;
 			productReference = FCF03767282DA198000CC7C1 /* ToDo.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +369,7 @@
 				TargetAttributes = {
 					FCF03766282DA198000CC7C1 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -111,6 +382,8 @@
 				Base,
 			);
 			mainGroup = FCF0375E282DA198000CC7C1;
+			packageReferences = (
+			);
 			productRefGroup = FCF03768282DA198000CC7C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +399,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCF03777282DA198000CC7C1 /* LaunchScreen.storyboard in Resources */,
+				FCF03792282DA3B0000CC7C1 /* Main.storyboard in Resources */,
+				FCF0377F282DA364000CC7C1 /* ToDo.db in Resources */,
 				FCF03774282DA198000CC7C1 /* Assets.xcassets in Resources */,
-				FCF03772282DA198000CC7C1 /* Main.storyboard in Resources */,
+				FC25D25B28313F340003B7AD /* PoiretOne-Regular.ttf in Resources */,
+				FC25D25728313D200003B7AD /* todo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +414,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCF0376F282DA198000CC7C1 /* ViewController.swift in Sources */,
+				FCF037A5282DA3D7000CC7C1 /* DetayRouter.swift in Sources */,
+				FCF037A2282DA3D7000CC7C1 /* DetayVC.swift in Sources */,
+				FCF037C3282DA3E7000CC7C1 /* ToDotableViewCell.swift in Sources */,
+				FCF037B3282DA3E0000CC7C1 /* KayitProtocol.swift in Sources */,
 				FCF0376B282DA198000CC7C1 /* AppDelegate.swift in Sources */,
+				FCF037B1282DA3E0000CC7C1 /* KayitPresenter.swift in Sources */,
+				FCF0378D282DA388000CC7C1 /* FMDatabasePool.m in Sources */,
 				FCF0376D282DA198000CC7C1 /* SceneDelegate.swift in Sources */,
+				FCF037B5282DA3E0000CC7C1 /* KayitRouter.swift in Sources */,
+				FCF03795282DA3D1000CC7C1 /* Yapilacaklar.swift in Sources */,
+				FCF037B2282DA3E0000CC7C1 /* KayitVC.swift in Sources */,
+				FCF037CA282DA575000CC7C1 /* gifLoader.swift in Sources */,
+				FCF0378C282DA388000CC7C1 /* FMDatabase.m in Sources */,
+				FCF037C8282DA3E7000CC7C1 /* AnasayfaRouter.swift in Sources */,
+				FCF037B4282DA3E0000CC7C1 /* KayitInteractor.swift in Sources */,
+				FCF0378F282DA388000CC7C1 /* FMDatabaseAdditions.m in Sources */,
+				FCF037C4282DA3E7000CC7C1 /* AnasayfaPresenter.swift in Sources */,
+				FCF03790282DA388000CC7C1 /* FMResultSet.m in Sources */,
+				FCF037A3282DA3D7000CC7C1 /* DetayProtocol.swift in Sources */,
+				FCF037D0282DB321000CC7C1 /* SplashViewController.swift in Sources */,
+				FCF0378E282DA388000CC7C1 /* FMDatabaseQueue.m in Sources */,
+				FCF037C5282DA3E7000CC7C1 /* ViewController.swift in Sources */,
+				FCF037C6282DA3E7000CC7C1 /* AnasayfaProtocol.swift in Sources */,
+				FCF037A4282DA3D7000CC7C1 /* DetayInteractor.swift in Sources */,
+				FCF037A1282DA3D7000CC7C1 /* DetayPresenter.swift in Sources */,
+				FCF037C7282DA3E7000CC7C1 /* AnasayfaInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FCF03770282DA198000CC7C1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FCF03771282DA198000CC7C1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FCF03775282DA198000CC7C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +578,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LUM2UA69FW;
@@ -294,7 +586,7 @@
 				INFOPLIST_FILE = ToDo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +597,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ece.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ToDo/ToDo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,6 +609,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LUM2UA69FW;
@@ -322,7 +617,7 @@
 				INFOPLIST_FILE = ToDo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,6 +628,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ece.ToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ToDo/ToDo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
